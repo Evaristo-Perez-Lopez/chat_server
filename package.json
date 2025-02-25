@@ -1,0 +1,22 @@
+{
+  "name": "chat_server",
+  "version": "1.0.0",
+  "description": "Backend for chat",
+  "main": "app/index.js",
+  "type": "module",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node --watch app/index.js"
+  },
+  "keywords": [
+    "api",
+    "chat",
+    "socket"
+  ],
+  "author": "Evaristo Perez Lopez",
+  "license": "ISC",
+  "dependencies": {
+    "express": "^4.21.2",
+    "socket.io": "^4.8.1"
+  }
+}
